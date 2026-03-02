@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handan Acar | Creative Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="cursor-outline"></div>
+
+    <nav>
+        <div class="logo">HANDAN<span>ACAR</span></div>
+        <ul>
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#projects">Projeler</a></li>
+            <li><a href="#experience">Deneyim</a></li>
+            <li><a href="#references">Referanslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-container">
+            <div class="hero-text reveal">
+                <span class="badge">Computer Engineer</span>
+                <h1>Fikirleri <span class="typer" data-words="Koda, Sanata, Geleceğe" data-delay="100"></span> Dönüştürüyorum.</h1>
+                <p>Yapay Zeka, Bulut Bilişim ve Mobil Teknolojilerle yenilikçi çözümler inşa ediyorum.</p>
+                <p> <strong> Kastamonu Üniversitesi</strong><br>
+                    <strong>Bilgisayar Mühendisliği</strong><br>
+                    <strong>2022-2027</strong>
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-main">Projelerimi Gör</a>
+                    <a href="#contact" class="btn-sub">İletişime Geç</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="photo-frame">
+                    <img src="images/handanAcar.png" alt="Handan Acar">
+                    <div class="tech-icons">
+                        <span class="icon-python">🐍</span>
+                        <span class="icon-flutter">💙</span>
+                        <span class="icon-aws">☁️</span>
+                        <span class="icon-unity">🎮</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Kastamonu Üniversitesi Bilgisayar Mühendisliği bölümünde eğitimime devam ederken, yazılım dünyasının farklı disiplinlerini bir araya getiren yenilikçi çözümler üretmeye odaklanıyorum. Teorik bilgiyi pratik projelerle desteklemeyi ilke edinerek; yapay zeka, mikroservis mimarileri ve bulut bilişim gibi modern teknolojiler üzerinde yetkinlik kazandım.
+
+Kariyer yolculuğumda hem bireysel projelerimle hem de kurumsal staj deneyimlerimle kendimi geliştirdim. Bursa Yenişehir Belediyesi'ndeki stajım sırasında "İyilik Masası" web platformunu full-stack olarak hayata geçirirken; Yazılım XYZ bünyesinde drone görüntülerinden nesne tespiti yapan YOLO tabanlı yapay zeka modelleri ve yüz tanıma sistemleri üzerine çalıştım. Bu süreçte veri ön işleme, model eğitimi ve sistem entegrasyonu aşamalarının tamamında aktif rol alarak teknik becerilerimi güçlendirdim.
+
+Projelerimde sadece kod yazmaya değil, sistemin sürdürülebilirliğine ve mimari bütünlüğüne de önem veriyorum. Dağıtık sistemlerde veri tutarlılığını sağlamak adına Saga orkestrasyon desenini kullanarak NestJS ve Flutter tabanlı bir otel rezervasyon sistemi simüle ettim. Ayrıca AWS üzerinde ölçeklenebilir altyapılar tasarlayarak yüksek kullanılabilirliğe sahip sistem mimarileri oluşturma konusunda deneyim edindim.
+
+Girişimci ruhumla katıldığım Kastamonu Teknokent "Geleceğe" Girişimcilik Yarışması'nda yazılım tabanlı projemle birincilik ödülüne layık görüldüm. Aynı zamanda topluluk bilinciyle GDSC bünyesinde organizasyonel görevler üstleniyor ve teknik birikimimi Medium üzerinden Python kütüphaneleri ve DevOps konularında yazdığım makalelerle paylaşıyorum. Sürekli öğrenen ve teknolojik dönüşüme öncülük etmeyi hedefleyen bir mühendis adayı olarak, karmaşık problemlere efektif çözümler sunmaya devam ediyorum.</p>
+                </div>
+                <div class="skills-cloud">
+                    <span>Python</span> <span>Flutter</span> <span>AWS</span> <span>OpenCV</span> <span>C#</span> <span>Firebase</span> <span>SQL</span> <span>Docker</span>
+                    <span>Java</span><span>Yolov11</span><span>PHP</span><span>Assembly</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Projelerim</h2>
+            <div class="grid">
+                <div class="card project-card" onclick="openProject('tubitak')">
+                    <div class="tag">Mobil Uygulama</div>
+                    <h3>TÜBİTAK Destekli Burs Başvuru Uygulaması</h3>
+                    <p>Kurum ve öğrenci bilgilerinin güvenliğini ön planda tutan, kurumların web siteleri
+üzerinden meşruiyetini doğrulayan ve dağınık haldeki burs fırsatlarını tek bir noktada toplayan, doğrulama ve eşleştirme
+özelliklerine sahip Flutter tabanlı mobil uygulama projesini tamamladım.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('pedagog')">
+                    <div class="tag">Local Web Uygulaması</div>
+                    <h3>Çocuk Resimlerinden Psikolojik Anaizi:</h3>
+                    <p> YOLO ve görüntü işleme tekniklerini kullanarak çocukların çizdiği resimlerdeki nesne
+konumu, çizim yoğunluğu ve ölçek gibi kriterler üzerinden psikolojik analiz gerçekleştiren bir yapay zeka modeli geliştirdim.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('ajan')">
+                    <div class="tag">Local Web Uygulaması</div>
+                    <h3>Lokal Yapay Zeka Ajanı ve İş Zekası Otomasyonu:</h3>
+                    <p> ONNX ile lokalde çalışan bir yapay zeka ajanı geliştirdim ve n8n kullanarak
+iş zekası modelinin tüm iş akışı otomasyonunu sağladım.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('saga')">
+                    <div class="tag">Mobil Uygulama</div>
+                    <h3>Saga Orkestrasyonu Otel Sistemi:</h3>
+                    <p> Dağıtık mikroservis mimarisinde veri tutarlılığını sağlamak için Saga desenini kullandığım bir
+sistem simüle ettim; projeyi Flutter (frontend) ve Node.js/NestJS (backend) teknolojileriyle geliştirdim.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('veritabani')">
+                    <div class="tag">Masaüstü Uygulama</div>
+                    <h3>Veritabanı Projesi:</h3>
+                    <p>  Veritabanı tasarımı, yönetimi ve karmaşık sorgu kayıtları konusunda kapsamlı yetkinlik kazandığım
+projemin detayları GitHub adresimde yer almaktadır.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('ml')">
+                    <div class="tag">Masaüstü Uygulama</div>
+                    <h3>ML Model Performans Analz:</h3>
+                    <p> En az üç makine öğrenmesi modelini çapraz doğrulama yöntemi ve F1 skoru, özgüllük gibi
+metriklerle karşılaştırarak performans analizlerini gerçekleştirdim.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('gorüntüisleme')">
+                    <div class="tag">Colabda Uygulama</div>
+                    <h3>Manuel ve Hazır Kütüphane Tabanlı Görüntü İşleme:</h3>
+                    <p> Görüntü işleme algoritmalarını hem hiçbir hazır kütüphane kullanmadan
+hem de OpenCV ve NumPy gibi kütüphanelerle geliştirerek performans ve optimizasyon farklarını kıyaslayan bir çalışma
+yürüttüm.Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('bulut')">
+                    <div class="tag">AWS-WEB</div>
+                    <h3>AWS: Ölçeklenebilir Bulut Mimarisi Tasarımı:</h3>
+                    <p> AWS üzerinde 2 farklı bölgede (AZ) çalışan, yüksek kullanılabilirliğe sahip VPC
+altyapısı ve ağ güvenliği katmanları tasarlandı.Application Load Balancer ve Auto Scaling entegrasyonu ile CPU yüküne bağlı
+olarak otomatik ölçeklenen, dinamik bir sistem mimarisi oluşturuldu.
+Detayları görmek için tıkla...</p>
+                </div>
+                <div class="card project-card" onclick="openProject('oyun')">
+                    <div class="tag">Oyun Programlama</div>
+                    <h3>Unity-C# Tabanlı Oyun Programlama:</h3>
+                    <p> ONNX ile lokalde çalışan bir yapay zeka ajanı geliştirdim ve n8n kullanarak
+iş zekası modelinin tüm iş akışı otomasyonunu sağladım.
+Detayları görmek için tıkla...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProject()">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <section id="experience" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Deneyim</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Kastamonu Teknokent | “Geleceğe” Girişimcilik Eğitimi ve Yarışması</h3>
+                    <p>Kastamonu Teknokent tarafından düzenlenen 'Geleceğe' girişimcilik eğitimine katıldım ve yazılım tabanlı girişim fikrimi
+sundum. Projem jüri tarafından birincilik ödülüne layık görüldü.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>GDSC Kastamonu Üniversitesi | Üye | 2023–2024</h3>
+                    <p>Topluluğun yönetim ekibi ve iletişim departmanında görev aldım. Bu süreçte çeşitli etkinlikler düzenledim, organizasyon
+süreçlerini yönettim ve konuşmacılarla doğrudan iletişim kurarak etkinliklerin başarısını sağladım</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Medium Yazarlığı</h3>
+                    <p>Medium üzerinde Python kütüphaneleri ve DevOps konularında teknik makaleler yazıyorum.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Bilgi İşlem Mühendisi Stajyeri | Bursa/Yenişehir Belediyesi | Temmuz 2024–Ağustos 2024</h3>
+                    <h4>İyilik Masası Web Projesi: </h4>
+                    <p>Yenişehir Belediyesi için kullanıcıların talep, şikayet ve önerilerini kolayca iletebildiği "İyilik Masası"
+web platformunu ve yönetim panelini geliştirdim. Kullanıcı dostu bir arayüz tasarladım ve güvenli erişim için e-posta doğrulama
+sistemini entegre ettim. Projeyi HTML, CSS, PHP ve SQL kullanarak full-stack olarak tamamladım.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Yapay Zeka Mühendisliği Stajyeri | Yazılım XYZ | Haziran 2025–Ağustos 2025</h3>
+                    <h4>Nesne Tespiti ve Yüz Tanıma Sistemi:</h4>
+                    <p>Drone görüntülerinde nesne tespiti ve sınıflandırması yapmak amacıyla YOLO modelini
+kullanarak bir görüntü işleme projesi geliştirdim. Proje; kara araçlarını, yayaları ve deniz araçlarını yüksek doğrulukla
+birbirinden ayırt edebilmektedir. Ayrıca, projeye özel bir yüz tanıma sistemi entegre ettim; veri seti ön işleme ve model eğitimi
+süreçlerinin tamamını kendim yürüttüm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="references" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Referanslar</h2>
+            <div class="ref-grid">
+                <div class="ref-card">
+                    <h4>Ahmet YÜCE</h4>
+                    <span>Bilgisayar Mühendisi</span>
+                    <span>Bursa/Yenişehir Belediyesi</span>
+                </div>
+                <div class="ref-card">
+                    <h4>Gamze AKMAN ACAR</h4>
+                    <span>Data Engineer</span><br> 
+                    <span>ADIN AI</span>
+                </div>
+                <div class="ref-card">
+                    <h4>Vedat ACAR</h4>
+                    <span>Software Developer</span>
+                    <span>Garanti BBVA Teknoloji</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="reveal">
+        <div class="footer-container">
+            <h2 class="section-title">Hadi Bağlantı Kuralım!</h2>
+            <p class="footer-desc">Yeni projeler, teknoloji sohbetleri veya sadece merhaba demek için bana ulaşabilirsin.</p>
+            
+            <div class="contact-grid-modern">
+                <a href="mailto:handan.acar.2071@gmail.com" class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-info">
+                        <span>E-posta</span>
+                        <p>handan.acar.2071@gmail.com</p>
+                    </div>
+                </a>
+                
+                <a href="https://linkedin.com/in/handanacr" target="_blank" class="contact-card">
+                    <div class="contact-icon">🔗</div>
+                    <div class="contact-info">
+                        <span>LinkedIn</span>
+                        <p>in/handanacr</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/hndnacar" target="_blank" class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <div class="contact-info">
+                        <span>GitHub</span>
+                        <p>@hndnacar</p>
+                    </div>
+                </a>
+
+                <a href="https://medium.com/@handan.acar.2071" target="_blank" class="contact-card">
+                    <div class="contact-icon">✍️</div>
+                    <div class="contact-info">
+                        <span>Medium</span>
+                        <p>Teknik Yazılarım</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Handan Acar • Geleceği Kodlayarak İnşa Ediyoruz</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
