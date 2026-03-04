@@ -1,56 +1,50 @@
 const projectData = {
     tubitak: {
-        title: "TÜBİTAK Destekl Burs Başvuru Uygulaması",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
+        title: "TÜBİTAK Destekli Burs Başvuru Uygulaması",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
         tech: "Flutter,Dart,Firebase",
     },
     pedagog: {
-        title: "Unity WebGL Adventure",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir",
+        title: "Çocuk Resimlerinden Psikoloji Analizi",
+        desc:"Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
         tech: "Yolo,HTML,CSS,JS",
-        link: "https://play.unity.com/..."
+        
     },
     ajan: {
         title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
         tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
     },
     saga: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "saga orkestrasyonu",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "Flutter,Node.js/Nest.js,Firebase",
     },
     veritabani: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "Veritabanı Projesi",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "SQL",
     },
     ml: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "Makine Öğrenmesi",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "Python",
     },
     gorüntüisleme: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "Görüntü İşleme",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "Matlab,Python",
     },
     bulut: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "Bulut Bilişim",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "AWS",
     },
     oyun: {
-        title: "ajan",
-        desc: "Projenin fotoğrafları daha sonra eklenecektir.",
-        tech: "ONYX,N8N,HTML,CSS,JS",
-        link: "#"
+        title: "Unity Oyun Programlama",
+        desc: "Projenin fotoğrafları daha sonra eklenecektir.Daha detay öğrnenmek istiyorsanız benimle iletişime geçin!",
+        tech: "UNITY,C#",
+        link: "https://play.unity.com/en/user/9db6c055-4f09-4f05-9c21-a49af182f53e"
     },    
 };
 
@@ -135,4 +129,5 @@ function typeEffect() {
 }
 
 // Efekti başlat
+
 typeEffect();
